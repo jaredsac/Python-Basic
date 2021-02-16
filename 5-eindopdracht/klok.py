@@ -11,15 +11,17 @@ setup()
 tl = Turtle()
 
 while True:
-    # met deze functie gebruik ik om het getalen niet over elkaat te schrijven.
     tl.clear()
+    # met deze functie gebruik ik om het getalen niet over elkaar te schrijven.
+
     tl.write(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconde).zfill(2),
              font=("times new roman", 25, "normal"))
-    # hier dwing python om twee getalen te gebruiken.
+    # hier dwing ik python om twee getalen te gebruiken en de font gebruik ik om het mooier te maken.
 
     seconde = seconde + 1
     time.sleep(1)
     # hier gaat de seconde met 1 optellen.
+
     if seconde == 60:
         seconde = 0
         minuten = minuten + 1
