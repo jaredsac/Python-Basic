@@ -1,4 +1,4 @@
-from turtle import *
+#from turtle import *
 import time
 
 
@@ -7,15 +7,15 @@ minuten = 59
 uren = 23
 
 
-setup()
-tl = Turtle()
+#setup()
+#tl = Turtle()
 
 while True:
-    tl.clear()
+    #tl.clear()
     # met deze functie gebruik ik om het getalen niet over elkaar te schrijven.
 
-    tl.write(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconde).zfill(2),
-             font=("times new roman", 25, "normal"))
+    print(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconde).zfill(2),
+             )    #tl.writefont=("times new roman", 25, "normal")
     # hier dwing ik python om twee getalen te gebruiken en de font gebruik ik om het mooier te maken.
 
     seconde = seconde + 1
