@@ -14,12 +14,12 @@ while True:
     #tl.clear()
     # met deze functie gebruik ik om het getalen niet over elkaar te schrijven.
 
-    print(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconde).zfill(2),
+    print(str(uren).zfill(2) + ":" + str(minuten).zfill(2) + ":" + str(seconde).zfill(2)
              )    #tl.writefont=("times new roman", 25, "normal")
     # hier dwing ik python om twee getalen te gebruiken en de font gebruik ik om het mooier te maken.
 
     seconde = seconde + 1
-    time.sleep(1)
+    time.sleep(0)
     # hier gaat de seconde met 1 optellen.
 
     if seconde == 60:
